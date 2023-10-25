@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100;200;300;400;500&display=swap');
+:root{
+
+    /*hado les varbil f css */
+    --color1 :rgba(255, 255, 255, 1);
+    --color2 :rgba(0, 80, 178, 1);
+    --color3liner :rgba(0, 0, 0, 0.5);
+    --color4black :rgba(0, 0, 0, 1);
+    --bgcolor-carte-import-Or-export :#66A2EC;;
+    --sidbar :rgba(31, 98, 180, 0.49);
+    --bg-gredinet:linear-gradient(180deg, #1E1E1E 0%, rgba(9, 103, 219, 0.00) 194.72%), url(url ta3 background), lightgray 50% / cover no-repeat, #FFF;
+    --color-Tcheck:#59FD0B;
+    --font1: 'K2D', sans-serif;
+
+
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{/* this width and heitgh is global size for all websit */
+    width: 100%; 
+    height: 100vh;
+
+    /*la bghity tkhdi varbil hna kadiri bhal haka*/
+    /* background-color: var(hna kn 3aito 3la smia ta3 var li hi color oula bg oula ta font ); */
+    
+}
+
+
+/* icon li rat thtagi ra nhthom lik 3la chkl svg ounty la bghity tkhdmi bihom hzihom htihom g html wsl chi <span>svg </span>*/
+/*
+hada ta3 tcheckbox icon 
+
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+<g clip-path="url(#clip0_73_103)">
+<path d="M10.0873 17.1375L5.79977 12.85L4.37061 14.2792L10.0873 19.9958L22.3373 7.74582L20.9081 6.31665L10.0873 17.1375Z" fill="#1E1E1E"/>
+</g>
+<defs>
+<clipPath id="clip0_73_103">
+<rect width="24.5" height="24.5" fill="white" transform="translate(0.899902 0.599976)"/>
+</clipPath>
+</defs>
+</svg>
+*/ 
+
+/*
+hada ta3 next >>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90" fill="none">
+  <g clip-path="url(#clip0_73_96)">
+    <path d="M52.5001 67.5L57.7876 62.2125L40.6126 45L57.7876 27.7875L52.5001 22.5L30.0001 45L52.5001 67.5Z" fill="#0050B2"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_73_96">
+      <rect width="90" height="90" fill="white" transform="matrix(-1 0 0 -1 90 90)"/>
+    </clipPath>
+  </defs>
+</svg>
+
+*/

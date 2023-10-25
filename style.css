@@ -76,7 +76,7 @@ justify-content: right;
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 15px;
+gap: 20px;
 list-style-type: none;
 }
 .content nav  .liste ul li a{
@@ -84,7 +84,7 @@ list-style-type: none;
  color: #FFF;
 text-align: center;
 font-family:  var(--font1);
-font-size: 24px;
+font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -92,8 +92,8 @@ transition: all .5s ease;
 }
 .content nav  .liste ul li:last-child a{
     display: flex;
-width: 210px;
-padding: 15px;
+width: 170px;
+padding: 10px;
 justify-content: center;
 align-items: center;
 gap: 10px;
@@ -113,6 +113,7 @@ letter-spacing: 2px;
   }
 .content nav  .liste ul li:last-child a:hover{
   background-color: #3972b9;
+  color: var(--color1);
 }
 
 
@@ -132,7 +133,7 @@ letter-spacing: 2px;
   width: 865px;
   color: #FFF;
     font-family: Koh Santepheap;
-    font-size: 70px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -143,14 +144,14 @@ letter-spacing: 2px;
     width: 866px;
     color: #FFF;
     font-family: var(--font1);
-    font-size: 40px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
 .part2 .butmpRT button{
     display: inline-flex;
-    padding: 20px;
+    padding: 15px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -159,7 +160,7 @@ letter-spacing: 2px;
     color: #000;
     letter-spacing: 2px;
     font-family: var(--font1);
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -171,9 +172,13 @@ letter-spacing: 2px;
     text-decoration: none;
     color: #000;
 }
+.part2 .butmpRT button:hover a{
+
+ color: var(--color1)
+}
 .part2 .butmpRT button:hover{
- background-color: var(--color2);
- color: var(--color1);
+
+background-color: var(--color2);
 }
 
 .content2{
@@ -561,8 +566,8 @@ padding: 20px;
     
 }
 .container2 .content{
-    width: 750px;
-height: 684px;
+    width: 600px;
+height: 600px;
 flex-shrink: 0;
 border-radius: 15px;
 background: #0967DB;
@@ -584,15 +589,18 @@ margin:  50px auto;
     letter-spacing: 2px;
 }
 .container2 .content form{
+    width: 100%;
+    height: auto;
+    
     display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
 
 }
 .container2 .content form input{
-    width: 617px;
+    width: 80%;
 height: 88px;
 flex-shrink: 0;
 border-radius: 20px;
@@ -610,6 +618,18 @@ font-weight: 600;
 line-height: normal;
 
 }
+.container2 .content form label{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2 .content form label input{
+    width: 80%;
+  
+}
 .container2 .content form input::placeholder{
 
     color: #464646;
@@ -620,17 +640,17 @@ line-height: normal;
     line-height: normal;
 }
 .container2 .content form button{
-    width: 310px;
-height: 88px;
+    width: 300px;
+height: 80px;
 flex-shrink: 0;
 border-radius: 15px;
 background: #1E1E1E;
 border: none;
 color: #EEE;
 font-family: var(--font1);
-font-size: 32px;
+font-size: 30px;
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 line-height: normal;
 cursor: pointer;
 
@@ -685,7 +705,7 @@ position: relative;
 }
 .container2 .content form #eyseicon{
   position: absolute;
-  right:20px;
+  right:80px;
   top: 35px;
   border: none;
   padding: 0;
