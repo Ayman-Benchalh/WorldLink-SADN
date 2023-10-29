@@ -10,6 +10,16 @@ function open(){
  const eyes1=document.getElementById("eyseicon1")
  const password=document.getElementById("password")
  const password1=document.getElementById("password1")
+ const switch1=document.getElementById("gottocont")
+ const switch2=document.getElementById("gottocrea")
+ switch1.onclick=()=>{
+   page3.style.display="none"
+   page1.style.display="block"
+}
+ switch2.onclick=()=>{
+   page3.style.display="block"
+   page1.style.display="none"
+}
  btn.onclick=()=>{
     page1.style.display="none"
  }
