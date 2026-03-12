@@ -56,15 +56,8 @@ README.md
 
 ## 📸 Screenshots
 
-Create a folder named **screenshots** inside the project and add images.
-
-Example:
-
-```
-img/
-WorldLink-SADN.png
-```
-
+### Homepage
+![Homepage](img/WorldLink-SADN.png)
 ---
 
 ## 🎯 Purpose of the Project
