@@ -61,8 +61,8 @@ Create a folder named **screenshots** inside the project and add images.
 Example:
 
 ```
-screenshots/
-01-homepage.png
+img/
+WorldLink-SADN.png
 ```
 
 ---
